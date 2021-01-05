@@ -1,0 +1,199 @@
+/* Initilisation */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* navbar */
+
+.main-header {
+  height: 70px;
+  width: 80%;
+  background: hsla(0, 0%, 100%, 0.98);
+  transition: box-shadow 0.25s ease 0s;
+  margin: 0 10%;
+}
+
+.main-header h1 {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  list-style-type: none;
+}
+
+.main-menu a {
+  padding: 0 0.6em;
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main-menu .is-current {
+  color: #00b39b;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  list-style-type: none;
+}
+.dropdown-content {
+  list-style-type: none;
+  display: none;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33;
+}
+
+/* Intro CSS part */
+
+.health-intro {
+  display: flex;
+  flex-direction: column;
+  /* justify-content */
+  align-items: center;
+  margin: 2% 10%;
+}
+
+.health-intro div {
+  display: flex;
+}
+
+.health-intro div {
+  /* width:45%;*/
+  padding: 3%;
+  line-height: 1.75;
+  justify-content: space-between;
+}
+
+.health-intro h1 {
+  font-size: 36px;
+  color: #00b39b;
+  padding: 2%;
+  font-weight: 300;
+}
+
+.health-intro div p {
+  width: 45%;
+  font-weight: bold;
+}
+
+/* section services */
+
+.grid-elements {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  height: 400px;
+  margin: 2% 10%;
+  color: azure;
+}
+
+.patients {
+  background-color: #00ccb1;
+  width: 30%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.doctors {
+  background-color: #3d83df;
+  width: 30%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.clinics {
+  background-color: #1b2734;
+  width: 30%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.grid-elements h2 {
+  font-weight: 300;
+}
+
+/* section company */
+
+.company {
+  display: flex;
+  width: 1015px;
+  margin: 2% 10%;
+}
+
+.company h1 {
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+}
+
+/* section platform */
+
+.platform {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  background-color: #e1f9f7;
+  font-size: 2.125rem;
+}
+.platform h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 10% 100%;
+  text-align: center;
+}
+.platform p {
+  max-width: 415px;
+  font-size: medium;
+  margin: 1.6em 0;
+}
+.stats__header {
+  margin-top: 2em;
+}
+.col-2 {
+  width: 50%;
+}
+
+/* countries css */
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+}
+
+.country {
+  margin-bottom: 2%;
+}
+
+.country:hover {
+  box-shadow: 10px 10px rgb(224, 220, 220);
+}
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.office {
+  text-align: center;
+}
+.office .country {
+  padding: 3%;
+}
